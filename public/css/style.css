@@ -125,8 +125,8 @@ img {
 	position:fixed;
 	top:0;
 	left:0;
-	line-height:80px;
-	min-height:80px;
+	line-height:40px;
+	min-height:40px;
 	z-index:1000;
 	-webkit-transform: translateZ(0);
 	background:rgb(255, 255, 255);
@@ -144,7 +144,7 @@ img {
 .site-branding h1 {
 	font-size:30px;
 	margin:0;
-	color:#444444;
+	color:white;
 	line-height:inherit;
 	text-transform:uppercase;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
@@ -242,9 +242,10 @@ img {
 	font-size:3em;
 	margin-bottom:10px;
 	font-family: 'robotothin', Helvetica, Arial, sans-serif;
-	font-weight:normal;
+	font-weight:bold;
 	text-transform:uppercase;
 	text-align:center;
+	color: #3f3d32;
 }
 .product-description {
 	color:#2A83ED;
@@ -253,12 +254,20 @@ img {
 	text-align:center;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
 	font-weight:normal;
+	color: #3f3d32;
+}
+
+.headline {
+	background: rgba(240, 248, 255, 1.0);
+	width: 100%;
+	margin:0 auto;
+	z-index: 1000;
 }
 #learn-more {
 	margin-left:20px;
 }
 .product-link {
-	background:#2A83ED;
+	background:#CA4725;
   	border: none;
 	display: inline-block;
 	font-size: 15px;
@@ -271,9 +280,9 @@ img {
 	color: #FFFFFF;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	-webkit-border-radius: 3px;
-	  -moz-border-radius: 3px;
-		  border-radius: 3px;
+	-webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+		  border-radius: 0px;
 		  -webkit-transition:0.2s background linear;
 		-moz-transition:0.2s background linear;
 			transition:0.2s background linear;
@@ -411,19 +420,22 @@ img {
 .newsletter-title {
 	font-size:2.5em;
 	margin-bottom:10px;
-	color:#FFFFFF;
+	color:#3f3d32;
 	font-family: 'robotothin', Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 50px;
 }
 .newsletter-slogan {
 	font-size:1.2em;
-	color:#FFFFFF;
+	color:#3f3d32;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
 	font-weight:normal;
+	text-align: center;
 }
 .newsletter-form .newsletter-text {
 	margin:0 20px 20px auto;
 	background:transparent;
-	border:1px solid #FFFFFF;
+	border:1px solid #3f3d32;
 	display: inline-block;
 	font-size: 20px;
 	height:23px;
@@ -432,9 +444,9 @@ img {
 	padding: 10px;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	-webkit-border-radius: 3px;
-	  -moz-border-radius: 3px;
-		  border-radius: 3px;
+	-webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+		  border-radius: 0px;
 }
 
 /* #Parallax
@@ -453,7 +465,7 @@ img {
 	position:relative;
 	color:#666666;
 }
-.parallax-banner-1 {background-image: url('http://placehold.it/1920x1250');}
+.parallax-banner-1 {background-image: url('../images/image_2.jpeg');}
 .parallax-background {
 	position: absolute;
 	width: 100%;
@@ -480,7 +492,7 @@ img {
 .footer .site-branding h1 {
 	font-size:30px;
 	margin:0;
-	color:#444444;
+	color: white;
 	line-height:inherit;
 	text-transform:uppercase;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
@@ -488,6 +500,8 @@ img {
 .site-branding a {
 	display:block;
 	line-height: inherit;
+	background: #216A97;
+	height: 58px;
 }
 .copyright {
 	padding:0;
@@ -530,9 +544,9 @@ input[type="button"] {
 	-webkit-transition:0.2s background linear;
 		-moz-transition:0.2s background linear;
 			transition:0.2s background linear;
-	-webkit-border-radius: 3px;
-	  -moz-border-radius: 3px;
-		  border-radius: 3px;
+	-webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+		  border-radius: 0px;
 }
 button:hover,
 input[type="submit"]:hover,
@@ -575,9 +589,9 @@ textarea {
 	display: block;
 	margin-bottom: 20px;
 	background: #FFFFFF;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
 }
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -635,6 +649,7 @@ textarea:focus {
 }
 .product .site-branding a {
 	color:#FFFFFF;
+	font-size:28px;
 }
 .product-description,
 .product-title {

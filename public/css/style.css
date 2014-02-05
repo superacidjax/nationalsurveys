@@ -639,6 +639,10 @@ textarea:focus {
 .product {
 	background:#2A83ED;
 }
+
+.headline {
+	background-color: gray;
+}
 .product .grid-100 {
 	padding:100px 0;
 }

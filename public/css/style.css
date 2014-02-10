@@ -207,6 +207,7 @@ img {
 .entry-title {
 	font-size:2.5em;
 	margin-bottom:10px;
+	padding-top: 50px;
 	font-family: 'robotothin', Helvetica, Arial, sans-serif;
 	font-weight:normal;
 }
@@ -654,7 +655,7 @@ textarea:focus {
 	min-height:inherit;
 }
 .product {
-	background:#2A83ED;
+	background:white;
 }
 
 .product .grid-100 {
@@ -671,7 +672,7 @@ textarea:focus {
 }
 .product-description,
 .product-title {
-	color:#FFFFFF;
+	color:#3f3d32;
 	margin-bottom:20px;
 }
 .product .grid-100 {

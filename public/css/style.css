@@ -29,6 +29,11 @@
 /* #Basic Styles
 ================================================== */
 
+#survey-section {
+	display: none;
+}
+
+
 html {
 	height:100%;
 }
@@ -379,7 +384,7 @@ img {
 ================================================== */
 
 .information-section {
-	padding-top:60px;
+	padding-top:30px;
 	border-bottom:1px solid #DDDDDD;
 	text-align:center;
 }

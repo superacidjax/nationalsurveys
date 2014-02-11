@@ -35,7 +35,6 @@
 	padding-top: 10px;
 }
 
-
 html {
 	height:100%;
 }
@@ -533,7 +532,6 @@ img {
 .site-branding a {
 	display:block;
 	line-height: inherit;
-	background: #216A97;
 	height: 58px;
 }
 .copyright {

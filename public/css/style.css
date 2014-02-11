@@ -29,8 +29,10 @@
 /* #Basic Styles
 ================================================== */
 
-#survey-section {
-	display: none;
+.center-me {
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 10px;
 }
 
 

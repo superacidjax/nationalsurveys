@@ -270,30 +270,61 @@ img {
 	font-weight:bold;
 	text-transform:uppercase;
 	text-align:center;
-	color: white;
+	color: #3f3d32;
 }
 .product-description {
-	color:#2A83ED;
 	font-size:1.2em;
 	margin-bottom:20px;
 	text-align:center;
 	font-family: 'robotolight', Helvetica, Arial, sans-serif;
 	font-weight:normal;
-	color: white;
+	color: #3f3d32;
 }
 
 .headline {
 	width: 100%;
 	margin:0 auto;
 	z-index: 1000;
-	color: white;
+	color: #3f3d32;
 }
 #learn-more {
 	margin-left:20px;
 }
+
+.survey-link {
+	background:white;
+  	border: 1px #999 solid;
+  min-width: 200px;
+	display: inline-block;
+	font-size: 15px;
+	text-decoration: none;
+	cursor: pointer;
+	margin:0 0 20px 0;
+	line-height: normal;
+	text-align:center;
+	padding: 10px 15px;
+	color: #3f3d32;
+	font-family: 'robotolight', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	-webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+		  border-radius: 0px;
+		  -webkit-transition:0.2s background linear;
+		-moz-transition:0.2s background linear;
+			transition:0.2s background linear;
+}
+.survey-link:hover {
+	background:#555555;
+	color:#FFFFFF;
+}
+
+
+
+
+
 .product-link {
-	background:#BFBFBF;
-  	border: none;
+	background:white;
+  	border: 2px #c92027 solid;
 	display: inline-block;
 	font-size: 15px;
 	text-decoration: none;
@@ -318,7 +349,9 @@ img {
 }
 .product-link i {
 	padding-left:10px;
+	color:#c92027;
 }
+
 .product-image img {
 	margin:0 auto;
 	display:block;
@@ -481,6 +514,11 @@ img {
 		  border-radius: 0px;
 }
 
+.top {
+	margin-top: 76px;
+	text-align: center;
+}
+
 /* #Parallax
 ================================================== */
 
@@ -497,7 +535,7 @@ img {
 	position:relative;
 	color:#666666;
 }
-.parallax-banner-1 {background-color: #3f3d32;}
+.parallax-banner-1 {background-color: white;}
 .parallax-background {
 	position: absolute;
 	width: 100%;
